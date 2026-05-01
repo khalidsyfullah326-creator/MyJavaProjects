@@ -11,7 +11,10 @@ public class Areas {
         System.out.println("Enter the value of width: ");
         width = input.nextDouble();
         area = length * width;
-        System.out.println("The area is "+area);
-
+        System.out.println("The area of the rectangle is " +area +" cm²");
+        System.out.println("Enter the radious in cm : ");
+        double radious = input.nextDouble();
+        double circleArea = Math.PI * Math.pow(radious, 2);
+        System.out.println("The are of circle is "+circleArea+" cm²");
     }
 }
