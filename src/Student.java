@@ -13,11 +13,12 @@ public class Student {
       this.age = age;
       this.gpa = gpa;
       this.isEnroll = true;
-
-     void study()
+    }
+    void study()
     {
-        System.out.println(this.name+" studying");
-    }
+        System.out.println(this.name + " is studying");
 
     }
+
+
 }
