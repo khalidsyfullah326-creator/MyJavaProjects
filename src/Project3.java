@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Project3 {
+public class Project3
+{
 }
